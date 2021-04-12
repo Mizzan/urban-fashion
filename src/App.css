@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+/* -------- Projects Docs----------------
+
+1. Projects fonts : 
+   1. Primary Body fonts - Open Sans
+      link : https://fonts.google.com/specimen/Open+Sans 
+      link : <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+            - font-family: 'Open Sans', sans-serif;
+
+
+   2. Heading Fonts - Playfair Display
+      link : https://fonts.google.com/specimen/Playfair+Display
+      link : <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+            - font-family: 'Playfair Display', serif;
+
+   3. Icon - https://feathericons.com/
+----------------------------------------- */
+
+/* declaring colors and width with css variables or custom property */
+:root {
+  --wrapper-width: 1360px;
+  --container-width: 1170px;
+  --primary-headingColor: #6e98a6;
+  --primary-textColor: #767676;
+  --secondary-textColor: #dad398;
+  --price-text: #b46254;
+  --secondary-color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 10px;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
 }
