@@ -1,0 +1,17 @@
+.single-product__items {
+  width: 350px;
+  color: var(--primary-headingColor);
+}
+
+.single-product__items h4 {
+  font-size: 2.2rem;
+  margin: 15px 0;
+  font-family: 'Playfair Display', serif;
+}
+.single-product__items p {
+  font-size: 1.3rem;
+}
+
+.single-product img {
+  width: 100%;
+}

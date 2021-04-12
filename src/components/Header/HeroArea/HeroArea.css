@@ -1,0 +1,16 @@
+.hero-area {
+  margin: 0 auto;
+  max-width: var(--container-width);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.hero-area__left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-area img {
+  width: 50rem;
+}

@@ -1,0 +1,21 @@
+.featured {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+.featured-brand-images {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+.featured-brand-images img {
+  width: 110px;
+  display: block;
+}
+
+.featured__heading {
+  font-size: 4.2rem;
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-headingColor);
+  margin: 50px 0;
+  text-align: center;
+}

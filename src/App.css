@@ -28,6 +28,8 @@
   --secondary-color: #fff;
 }
 
+/* Declaring global styles here */
+
 html {
   font-size: 10px;
   box-sizing: border-box;
@@ -41,5 +43,20 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 20px 35px;
+  background-color: var(--secondary-textColor);
+  color: var(--secondary-color);
+  font-size: 2.4rem;
+  border-radius: 10px;
+}
+
+/* global styles for images */
+img {
+  width: 100%;
+  object-fit: cover;
 }
