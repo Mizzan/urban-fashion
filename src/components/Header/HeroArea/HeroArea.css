@@ -2,15 +2,23 @@
   margin: 0 auto;
   max-width: var(--container-width);
   display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
   justify-content: center;
   gap: 20px;
 }
 .hero-area__left {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  flex: 1 1 50rem;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
 .hero-area img {
-  width: 50rem;
+  width: 100%;
+}
+
+.hero-area__right {
+  flex: 2 2 50rem;
 }

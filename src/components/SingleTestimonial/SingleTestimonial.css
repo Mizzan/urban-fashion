@@ -17,11 +17,24 @@
   font-size: 1.2rem;
 }
 
+.single-testimonial:first-child {
+  flex: 1 1 50rem;
+}
+.single-testimonial:last-child {
+  flex: 1 1 50rem;
+}
+
 .testimonial-desc p:nth-child(3n) {
   width: 80%;
   font-family: 'Open Sans', sans-serif;
   line-height: 2rem;
   color: #333;
+}
+
+@media (max-width: 1060px) {
+  .single-testimonial:first-child {
+    margin-bottom: 15rem;
+  }
 }
 
 .single-testimonial:last-child {

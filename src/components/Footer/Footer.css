@@ -9,6 +9,7 @@
   max-width: var(--container-width);
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-left {
@@ -35,6 +36,7 @@
 
 .footer-menu {
   display: flex;
+  flex-wrap: wrap;
   margin: 20px 30px;
 }
 .footer-menu a {
