@@ -35,6 +35,7 @@ html {
   box-sizing: border-box;
 }
 
+/* declaring box-sizing is good practice here */
 *,
 *::before,
 *::after {
@@ -45,6 +46,8 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* global button style */
+
 button {
   border: none;
   outline: none;
@@ -53,6 +56,7 @@ button {
   color: var(--secondary-color);
   font-size: 2.4rem;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 /* global styles for images */

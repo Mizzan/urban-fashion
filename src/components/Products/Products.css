@@ -2,6 +2,13 @@
   max-width: var(--container-width);
   margin: 0 auto;
 }
+
+.products-section {
+  background: url('../../images/bg1.png') top left no-repeat,
+    url('../../images/bg1.png') bottom right no-repeat;
+  background-size: 20rem;
+}
+
 .single-product {
   display: flex;
   flex-wrap: wrap;

@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 10px;
   margin-top: 50px;
+  position: relative;
 }
 
 .testimonials-section > p {
@@ -22,4 +23,10 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+}
+
+.arrow-right-icon {
+  position: absolute;
+  top: 86%;
+  left: 90%;
 }

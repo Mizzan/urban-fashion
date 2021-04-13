@@ -8,10 +8,14 @@ const SingleProduct = ({ product }) => {
       <p>{product.desc}</p>
       <p>
         ${product.price}{' '}
-        <span style={{ textDecoration: 'line-through' }}>$75.00</span>
+        <span style={{ textDecoration: 'line-through', color: 'red' }}>
+          $75.00
+        </span>
       </p>
 
-      <p>Add to Cart</p>
+      <p style={{ textDecoration: 'underline', cursor: 'pointer' }}>
+        Add to Cart
+      </p>
     </div>
   );
 };

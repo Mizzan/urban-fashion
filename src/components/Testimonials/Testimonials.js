@@ -3,6 +3,7 @@ import SingleTestimonial from '../SingleTestimonial/SingleTestimonial';
 import testimonialImg1 from '../../images/testimonialImg1.png';
 import testimonialImg2 from '../../images/testimonialImg2.png';
 import './Testimonials.css';
+import { ArrowRightCircle } from 'react-feather';
 
 const testimonialsData = [
   {
@@ -36,6 +37,12 @@ const Testimonials = () => {
           ></SingleTestimonial>
         ))}
       </div>
+      <ArrowRightCircle
+        className="arrow-right-icon"
+        stroke="white"
+        size={42}
+        fill="var(--primary-headingColor)"
+      />
     </div>
   );
 };
