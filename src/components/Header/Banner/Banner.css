@@ -1,6 +1,12 @@
 .banner {
   max-width: var(--wrapper-width);
   display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.banner__image {
+  flex: 2 2 60rem;
 }
 
 .banner__image img {
@@ -10,6 +16,7 @@
   background-color: var(--primary-headingColor);
   color: var(--secondary-color);
   padding: 20px;
+  flex: 2 2 40rem;
   position: relative;
 }
 .banner__cta__heading {
@@ -25,7 +32,7 @@
 
 .banner__cta__image {
   position: absolute;
-  top: 250px;
-  left: 400px;
-  max-width: 200px;
+  top: 25rem;
+  left: 40rem;
+  max-width: 20rem;
 }

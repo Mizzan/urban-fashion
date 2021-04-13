@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from '../../../images/logoHeader.png';
+import './Navbar.css';
+import { Search, ShoppingCart } from 'react-feather';
+
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -15,7 +18,27 @@ const Navbar = () => {
           <a href="/">Blog</a>
         </div>
         <div className="nav-right">
-          <div className="search-field"></div>
+          <div className="subscribe-input search-field">
+            <input type="text" />
+            <Search
+              className="right-arrow-icon"
+              stroke="var(--primary-headingColor)"
+              fill="none"
+              size={22}
+            />
+          </div>
+          <div className="items-cart">
+            <span>
+              <ShoppingCart
+                className="cart-icon"
+                stroke="var(--primary-headingColor)"
+                fill="none"
+                size={22}
+              />
+              Cart
+            </span>
+            <span id="user-info">Alex Pitter</span>
+          </div>
         </div>
       </nav>
     </div>

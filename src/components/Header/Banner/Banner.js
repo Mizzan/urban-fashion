@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <section className="banner">
       <div className="banner__image">
-        <img src={bannerImage} alt="brand banner image" />
+        <img src={bannerImage} alt="brand banner" />
       </div>
 
       <div className="banner__cta">
