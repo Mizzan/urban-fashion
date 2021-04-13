@@ -64,3 +64,5 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
+/* I have coded css into component basis, means each component has it's own css file and the global styles are here */

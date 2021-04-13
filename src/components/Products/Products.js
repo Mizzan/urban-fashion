@@ -8,6 +8,10 @@ import product6 from '../../images/product6.png';
 import SingleProduct from '../SingleProduct/SingleProduct';
 import './Products.css';
 
+/**
+ * Created dummy product data then used it by mapping the data.
+ */
+
 const productsData = [
   {
     id: 1,

@@ -5,6 +5,9 @@ import testimonialImg2 from '../../images/testimonialImg2.png';
 import './Testimonials.css';
 import { ArrowRightCircle } from 'react-feather';
 
+/**
+ * Created dummy data for the testimonials, then used it by mapping the data with map method
+ */
 const testimonialsData = [
   {
     id: 'tm1',
