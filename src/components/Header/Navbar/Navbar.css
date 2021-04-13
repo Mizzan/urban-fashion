@@ -1,19 +1,25 @@
 .navbar {
-  width: var(--container-width);
+  max-width: var(--wrapper-width);
+}
+.navbar nav {
+  max-width: var(--container-width);
   margin: 0 auto;
   padding: 1.2rem 0;
 }
-.navbar nav {
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .navbar img {
   width: 118px;
   display: block;
 }
 
 .menu-list {
+  display: flex;
 }
 .menu-list a {
   text-decoration: none;
@@ -50,4 +56,20 @@
   color: var(--primary-headingColor);
   margin: 0 1.2rem;
   cursor: pointer;
+}
+
+@media (max-width: 1188px) {
+  .navbar nav {
+    max-width: 40rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .menu-list {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .nav-right {
+    padding: 1rem 4rem;
+    flex-direction: column;
+  }
 }
